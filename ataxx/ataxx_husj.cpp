@@ -1,33 +1,3 @@
-// 同化棋（Ataxx）对战程序
-// 胡时京策略
-// 作者：husj
-
-#include <iostream>
-#include <string>
-#include <cstdlib>
-#include <ctime>
-#include <stdio.h>
-#include <list>
-#include <vector>
-#include <string.h>
-#include <fstream>
-#include <iomanip>
-#include <iostream>
-#include <sstream>
-#include<algorithm>
-using namespace std;
-
-// 执子颜色（1为黑，-1为白，棋盘状态亦同）
-// 我的颜色是黑色
-int myColor = 1;
-// 机器的颜色是白色
-int otherColor = -1;
-
-// 棋盘状态
-int gridInfo[7][7] = { 0 }; // 先x后y，记录棋盘状态
-
-// 走棋的历史记录，用于复盘
-list<vector<int> > history;
 bool saveFlg; // 存盘否标志
 
 // 24个可能放置棋子的位置定义

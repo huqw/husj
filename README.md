@@ -1,4 +1,4 @@
 # husj
 h
 
-usj c++ source
+oousj c++ source
